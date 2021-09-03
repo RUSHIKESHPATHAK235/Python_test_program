@@ -3,7 +3,7 @@ import time
 from colorama import Fore, Back, Style
 colorama.init()
 
-print(Fore.LIGHTBLUE_EX)
+print(Fore.LIGHTGREEN_EX)
 print("Total marks test: 30")
 
 print(Fore.WHITE)
@@ -14,6 +14,20 @@ if a=="print":
     time.sleep(0.5)
     print("✔ Test passed 1")
     print("Marks 10")
+
+
+elif a=="PRINT":
+    print(Fore.GREEN)
+    time.sleep(0.5)
+    print("✔ Test passed 1")
+    print("Marks 10")
+
+elif a=="Print":
+    print(Fore.GREEN)
+    time.sleep(0.5)
+    print("✔ Test passed 1")
+    print("Marks 10")
+
 else:
     print(Fore.RED)
     time.sleep(0.5)
@@ -28,6 +42,19 @@ if b=="colorama":
     time.sleep(0.5)
     print("✔ Test passed 2")
     print("Marks 10")
+
+elif b=="COLORAMA":
+    print(Fore.GREEN)
+    time.sleep(0.5)
+    print("✔ Test passed 2")
+    print("Marks 10")
+
+elif b=="Colorama":
+    print(Fore.GREEN)
+    time.sleep(0.5)
+    print("✔ Test passed 2")
+    print("Marks 10")
+
 else:
     print(Fore.RED)
     time.sleep(0.5)
@@ -42,9 +69,20 @@ if c=="input":
     time.sleep(0.5)
     print("✔ Test passed 3")
     print("Marks 10")
+
+elif c=="Input":
+    print(Fore.GREEN)
+    time.sleep(0.5)
+    print("✔ Test passed 3")
+    print("Marks 10")
+
+elif c=="INPUT":
+    print(Fore.GREEN)
+    time.sleep(0.5)
+    print("✔ Test passed 3")
+    print("Marks 10")
 else:
     print(Fore.RED)
     time.sleep(0.5)
     print("✘ Test failed 3")
     print("Marks 0")
-
